@@ -46,7 +46,7 @@ function getMovie(){
          <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" class="thumbnail">
          </div>
          <div class="col-md-8">
-         <h2>${movie.title}<h2>
+         <h3>${movie.title}<h3>
          <ul class="list-group">
          <li class="list-group-item"><strong>Genre;</strong>${movie.genres[0].name}, ${movie.genres[1].name}</li>
          <li class="list-group-item"><strong>Released;</strong>${movie.release_date}</li>

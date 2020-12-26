@@ -1,6 +1,33 @@
 #movies, img, #movie img {
     width: 100%;
 }
+body{
+    background-color: rgb(7, 7, 48);
+}
+.container{
+   
+    text-align: center;
+}
+#movie .col-md-8 .list-group{
+    color: black;
+}
+#movie {
+    color: white;
+}
+#movies .col-md-3{
+    color:white;
+}
+
+nav h1{
+    
+    
+    color: cornsilk;
+}
+/* .container .jumbotron .textcenter{
+    color: black;
+    
+} */
+
 @media(min-width:950px){
 #movies .col-md-3 .well{
     height: 390px;
